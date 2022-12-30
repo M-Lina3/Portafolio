@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-size: 44px;
+  font-size: 36px;
   text-align: left;
 }
 
@@ -79,7 +79,7 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 22px;
   text-decoration: none;
 }
 
@@ -99,14 +99,18 @@ p {
   text-decoration: none;
 }
 .icons {
-  color: var(--primary-color);
-  text-decoration: none;
   background-color: var(--secondary-color);
-  padding: 0;
+  color: var(--primary-color);
+  font-size: 18px;
+  text-decoration: none;
+  padding: 6px;
   margin: 0;
+  display: inline;
+  border-radius: 50%;
 }
 .icons:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 @media (max-width: 767px) {
