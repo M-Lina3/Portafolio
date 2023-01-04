@@ -1,7 +1,8 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #a070a1;
+  --secondary-color: #f8e7e7;
   --tertiary-color: plum;
+  --quaternary-color: #724060;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -9,6 +10,8 @@ body {
   margin: 60px auto;
   margin-top: 100px;
   max-width: 1020px;
+  background-color: #fdf3f3;
+  color: var(--quaternary-color);
 }
 
 h1,
@@ -76,12 +79,7 @@ p {
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
+  box-shadow: var(--box-shadow);
 }
 
 .email-link {
