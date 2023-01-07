@@ -129,5 +129,9 @@ p {
   }
   h2 {
     text-align: center;
+    font-size: 28px;
+  }
+  h1 {
+    font-size: 62px;
   }
 }
