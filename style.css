@@ -56,6 +56,9 @@ p {
   text-align: center;
 }
 
+.navbar-brand {
+  font-family: "Pinyon Script", cursive;
+}
 .navigation-links {
   display: flex;
   justify-content: center;
